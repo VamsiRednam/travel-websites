@@ -1,0 +1,138 @@
+header {
+    position: -webkit-sticky;
+    position: sticky;
+    top: -15px;
+    z-index: 1000;
+    background-color: #ffffff;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+header .row {
+    height: 108px;
+}
+
+.nav-item {
+    background: transparent;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    height: 100px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-item:hover {
+    background-color: #ee5057;
+    color: white;
+}
+
+.tittle {
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.navbar-nav {
+    margin-right: auto;
+}
+
+.bg-img {
+    background-image: url(https://images.pexels.com/photos/3737179/pexels-photo-3737179.jpeg?auto=compress&cs=tinysrgb&w=600);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    background-position: fixed;
+}
+
+.form-element-icon {
+    position: absolute;
+    color: #ee5057;
+}
+
+.sec-1 .container {
+    align-items: center;
+    background-color: white;
+    height: 207px;
+    width: 1000px;
+    margin-top: -350px;
+}
+
+.tm-section-2 {
+    background: #ee5057;
+    padding-top: 50px;
+    position: relative;
+    top: 140px;
+    color: white;
+    height: 300px;
+
+}
+
+.tm-section-2 a {
+    text-decoration: none;
+    border: 2px solid white;
+    border-bottom: none;
+    width: 90px;
+    padding: 10px;
+    height: 60px;
+    margin-top: 40px;
+    color: white;
+}
+
+.tm-section-2 a:hover {
+    background-color: white;
+    color: #ee5057;
+    transition: 0.8s;
+}
+
+.tm-section-3 {
+    padding-top: 0px;
+    position: relative;
+    top: 140px;
+
+}
+
+.tm-section-3 .col-md-4:hover {
+    box-shadow: 0 0 45px rgba(0, 0, 0, .2);
+    transform: scale(1.1);
+    transition: 0.6s;
+}
+
+.tm-section-4 {
+    padding-top: 0px;
+    position: relative;
+    top: 140px;
+    background-color: #e8e8e8;
+}
+
+.tm-section-4 .col-md-3 {
+    padding: 0px;
+    width: 400px;
+    margin-right: 40px;
+    margin-top: 50px;
+}
+
+.tm-section-4 .col-md-3 .col {
+    background-color: white;
+    width: 100%px;
+    display: flex;
+    margin-bottom: 15px;
+
+}
+
+.tm-section-4 .col-md-3 .col img {
+    float: left;
+    margin-top: -10px;
+}
+
+.tm-section-4 .col-md-3 .col p {
+    text-align: center;
+    padding: 20px;
+    background-color: #e8e8e8;
+    width: 70%;
+    margin-top: px;
+    margin-left: 15px;
+}
